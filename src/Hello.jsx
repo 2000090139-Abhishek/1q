@@ -1,10 +1,10 @@
 function Hello()
 {
 
-  var myName= "Abhishek"
+  let myName= "Abhishek"
 
    return <h3>
-    Hello
+    Hello {myName}
    </h3>
 }
 
